@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  align-items: center;
+  margin-top: 8%;
+  flex-direction: column;
+  color: grey;
+}
+
+.form-container {
+  flex: 1;
+  width: 60%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card-deck {
+  display: flex;
+  max-width: 900px;
+}
+
+.card {
+  background-color: #e1e4e8;
+}
+.card-body {
+  padding-bottom: 0;
+}
+/* Card Colors */
+.c0 {
+  border-left: 5px solid #03cafc;
+}
+.c1 {
+  border-left: 5px solid purple;
+}
+.c2 {
+  border-left: 5px solid green;
+}
+.c4 {
+  border-left: 5px solid red;
+}
+.c5 {
+  border-left: 5px solid blue;
+}
+.c6 {
+  border-left: 5px solid orange;
+}
+/* Card Title Colors */
+.title {
+  color: #03cafc;
+}
+
+.t0 {
+  color: #03cafc;
+}
+.t1 {
+  color: purple;
+}
+.t2 {
+  color: green;
+}
+.t3 {
+  color: red;
+}
+.t4 {
+  color: blue;
+}
+.t5 {
+  color: orange;
+}
+
+.btn-group {
+  margin-left: 50%;
+  /* margin-top: 2%; */
+}
+.btn-secondary {
+  background-color: white;
+  color: grey;
+  font-size: 16px;
+}
